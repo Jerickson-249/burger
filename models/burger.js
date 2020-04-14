@@ -13,3 +13,6 @@ var burger= {
         })
     }
 }
+
+module.exports = burger; 
+//burger is an object that contains selectAll and insertOne

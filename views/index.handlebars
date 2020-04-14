@@ -1,1 +1,10 @@
 <h1>Hello</h1>
+<input type="text">
+<button>Submit</button>
+<h2> {{#each burgers}} <!--each is a opening and closing tag for handlebars, gets each line/values from the table-->
+    <p>{{this.burger_name}}</p> <!--specifically gets the burger names-->
+    {{/each}}
+<!--all the burger names will be rendered from the burgers table-->
+
+</h2>
+

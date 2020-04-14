@@ -2,7 +2,7 @@ const connection = require("../config/connection.js");
 
 var orm= {
     selectAll: function(table, cb) {
-        var queryString="SELECT * FROM" + table + ";"; //select everything from the MySQL table
+        var queryString="SELECT * FROM " + table + ";"; //select everything from the MySQL table
 
         //passes a query string and a function
         connection.query(queryString, function(err, result){
